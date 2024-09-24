@@ -1,0 +1,19 @@
+.dark-theme, html[data-theme=dark] {
+  /* Background & Borders */
+  --ls-primary-background-color: #1f1f1f;
+  --ls-secondary-background-color: #181818;
+  --ls-tertiary-background-color: #2b2b2b;
+  --ls-border-color: #2b2b2b;
+ 
+  /* Main text color */
+  --ls-primary-text-color: #cccccc;
+  
+  /* Create button */
+  --ls-create-button-color: #0078d4;
+  --ls-create-button-color: #026ec1;
+  --ls-create-button-color-sm: #0078d4;
+  --ls-create-button-color-sm-focus: #026ec1;
+  
+  /* [[link]] text color */
+  
+}
