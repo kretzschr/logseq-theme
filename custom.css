@@ -6,7 +6,7 @@
   --ls-border-color: #2b2b2b;
  
   /* Main text color */
-  --ls-primary-text-color: #cccccc;
+
   
   /* Create button */
   --ls-create-button-color: #0078d4;
@@ -15,5 +15,18 @@
   --ls-create-button-color-sm-focus: #026ec1;
   
   /* [[link]] text color */
+  /*--ls-link-text-color: #4daafc;*/
   
+  /* Headings */
+  --ls-title-text-color: #569cd6;
+  --ct-page-title-color: #569cd6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ct-page-title-color);
 }
