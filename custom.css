@@ -35,21 +35,20 @@
   --dm-heading-color: #dcdcaa;
   --dm-page-title-font-size: 36px;
   --dm-page-title-line-height: 40px;
-  --dm-page-title-font-weight: 300;
+  --dm-page-title-font-weight: 100;
   --dm-page-title-font-style: normal;
+  --dm-heading-font-weight: 300;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.ls-block :is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6) {
   color: var(--dm-heading-color);
+  font-weight: var(--dm-heading-font-weight);
 }
 
 h1.title {
-  font-weight: 100;
+  font-size: var(--dm-page-title-font-size);
+  font-weight: var(--dm-page-title-font-weight);
+  line-height: var(--dm-page-title-line-height);
 }
 
 i {
