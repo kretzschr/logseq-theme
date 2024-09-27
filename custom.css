@@ -30,6 +30,15 @@
   --ls-block-bullet-color: #c586c0;
 }
 
+/* Sidebar */
+.cp__menubar-repos {
+  padding: 0;;
+}
+
+.nav-header > div {
+  border-top: 1px solid var(--ls-tertiary-background-color);
+}
+
 /* Headings & Title*/
 :root {
   --dm-heading-color: #dcdcaa;
