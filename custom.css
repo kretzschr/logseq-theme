@@ -13,6 +13,7 @@
 
   /* Main text color */
   --ls-primary-text-color: #cccccc;
+  --ls-secondary-text-color: #6B995A;
 
   /* Create button */
   --ls-create-button-color: #0078d4;
@@ -24,7 +25,8 @@
   --ls-link-text-color: #4ec9b0;
 
   /* #tag text color  */
-  --ls-tag-text-color: #9cdcfe;
+  --ls-tag-text-color: #ffffff; /*#9cdcfe  */
+  --dm-tag-background-color: #0078d4;
 
   /* block bullet color  */
   --ls-block-bullet-color: #c586c0;
@@ -32,7 +34,7 @@
 
 /* Sidebar */
 .cp__menubar-repos {
-  padding: 0;;
+  padding: 0;
 }
 
 .nav-header > div {
@@ -65,6 +67,20 @@ i {
 }
 
 /* Reference blocks  */
-.references-blocks-item {
+.references-blocks-item,
+.block-properties {
   box-shadow: rgba(0, 0, 0, 0.36) 0px 0px 8px 2px;
+}
+
+/* Page properties  */
+.block-properties {
+  background-color: var(--ls-tertiary-background-color);
+}
+
+/* Tags  */
+a.tag {
+  color: var(--ls-tag-text-color);
+  background-color: var(--dm-tag-background-color);
+  padding: 2px 8px;
+  border-radius: 14px;
 }
