@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
 :root {
   --ls-font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -25,11 +26,15 @@
   --ls-link-text-color: #4ec9b0;
 
   /* #tag text color  */
-  --ls-tag-text-color: #ffffff; /*#9cdcfe  */
+  --ls-tag-text-color: #ffffff;
   --dm-tag-background-color: #0078d4;
 
   /* block bullet color  */
   --ls-block-bullet-color: #c586c0;
+
+  /* Inline code color  */
+  --ls-page-inline-code-color: #9cdcfe;
+  --dm-code-font-family:"Inconsolata", "MonoLisa", monospace;
 }
 
 /* Sidebar */
@@ -83,4 +88,15 @@ a.tag {
   background-color: var(--dm-tag-background-color);
   padding: 2px 8px;
   border-radius: 14px;
+}
+
+/* Code */
+:not(pre) > code {
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 0px 8px 2px;
+  font-family: var(--dm-code-font-family);
+  font-size: 16px;
+}
+
+.page-reference .bracket {
+  opacity: 1;
 }
