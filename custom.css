@@ -86,7 +86,7 @@ h1.title {
   line-height: var(--dm-page-title-line-height);
 }
 
-i {
+b, i {
   color: #ce9178;
 }
 
@@ -166,4 +166,31 @@ a.priority[href="#/page/C" i]::before {
 
 a.priority[href="#/page/C" i]:hover::before {
   background-color: #3794ff;
+}
+
+/* Source code  */
+.cm-s-lsradix .cm-keyword,
+.cm-s-lsradix .cm-operator {
+  color: #569cd6;
+}
+
+.cm-s-lsradix .cm-def {
+  color: #dcdcaa;
+}
+
+.cm-s-lsradix .cm-variable {
+  color: #4ec9b0;
+}
+
+.cm-s-lsradix .cm-variable-2 {
+  color: #9cdcfe;
+}
+
+.cm-s-lsradix .cm-comment {
+  font-style: normal;
+  color: #6a9955;
+}
+
+.cm-s-lsradix .cm-string {
+  color: #ce9178;
 }
