@@ -92,7 +92,8 @@ b, i {
 
 /* Reference blocks  */
 .references-blocks-item,
-.block-properties {
+.block-properties,
+.cp__fenced-code-block {
   box-shadow: rgba(0, 0, 0, 0.36) 0px 0px 8px 2px;
 }
 
@@ -193,4 +194,10 @@ a.priority[href="#/page/C" i]:hover::before {
 
 .cm-s-lsradix .cm-string {
   color: #ce9178;
+}
+
+.extensions__code-lang {
+  color: var(--ls-tag-text-color);
+  background-color: var(--dm-tag-background-color);
+  transition: opacity .5s;
 }
