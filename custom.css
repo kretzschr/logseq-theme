@@ -201,3 +201,27 @@ a.priority[href="#/page/C" i]:hover::before {
   background-color: var(--dm-tag-background-color);
   transition: opacity .5s;
 }
+
+/* Form elements  */
+.form-select {
+  background-color: #313131;
+  color: #cccccc;
+  border-color: #3c3c3c;
+}
+
+html[data-color=none] .ui__toggle-background-on .switcher {
+  background-color: #ffffff;
+}
+
+.ui__toggle-background-on {
+  background-color: #0078d4;
+}
+
+.cp__settings-inner .panel-wrap>.it label {
+  color: #ffffff;
+  opacity: 1;
+}
+
+svg.info {
+  fill: #ffffff;
+}
